@@ -7,6 +7,8 @@ cask "micflip" do
   desc "Menu-bar mic input toggle"
   homepage "https://github.com/nymann/micflip"
 
+  depends_on macos: ">= :tahoe"
+
   app "micflip.app"
 
   zap trash: "~/Library/Preferences/dev.nymann.micflip.plist"
