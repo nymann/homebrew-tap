@@ -16,6 +16,7 @@ brew install --cask nymann/tap/micflip
 | [micflip](https://github.com/nymann/micflip) | Menu-bar mic input toggle |
 | [nosleep](https://github.com/nymann/nosleep) | Menu-bar `caffeinate` toggle |
 | [caps](https://github.com/nymann/caps) | Hyperkey replacement (Caps Lock → Hyper held / Escape tapped) |
+| [hidecursor](https://github.com/nymann/hidecursor) | Hide cursor when idle (background daemon) |
 
 ## Notes
 
@@ -28,7 +29,7 @@ xattr -dr com.apple.quarantine /Applications/<app>.app
 
 ## Release flow
 
-Each app repo (micflip, nosleep, caps) has:
+Each app repo (micflip, nosleep, caps, hidecursor) has:
 
 - a `just release X.Y.Z` recipe that builds, zips, tags `vX.Y.Z`, and
   publishes a GitHub release with the zip attached
