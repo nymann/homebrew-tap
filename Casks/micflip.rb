@@ -1,6 +1,6 @@
 cask "micflip" do
-  version "0.1.0"
-  sha256 "712a5ed844594cfbf4c4d0f06a65cac9a0d06a0c3291524d290af62be94b52f5"
+  version "0.2.0"
+  sha256 "aa1275f615292f34eb4a2af00d642856517d0d1d7a159231474aa315e2429222"
 
   url "https://github.com/nymann/micflip/releases/download/v#{version}/micflip-#{version}.zip"
   name "micflip"
