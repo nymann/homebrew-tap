@@ -10,6 +10,7 @@ cask "micflip" do
   depends_on macos: ">= :tahoe"
 
   app "micflip.app"
+  binary "#{appdir}/micflip.app/Contents/MacOS/micflip"
 
   zap trash: "~/Library/Preferences/dev.nymann.micflip.plist"
 
